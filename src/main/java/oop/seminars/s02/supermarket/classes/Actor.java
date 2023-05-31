@@ -1,7 +1,7 @@
 package oop.seminars.s02.supermarket.classes;
 import oop.seminars.s02.supermarket.interfaces.*;
 
-abstract public class Actor implements iActorBehavior{
+abstract public class Actor implements iActorBehaviour{
     protected String name;
     protected boolean isTakeOrder;
     protected boolean isMakeOrder;
