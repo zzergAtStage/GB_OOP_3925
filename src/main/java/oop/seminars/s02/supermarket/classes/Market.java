@@ -1,11 +1,11 @@
 package oop.seminars.s02.supermarket.classes;
 
-import java.util.List;
-import java.util.ArrayList;
-
 import oop.seminars.s02.supermarket.interfaces.iActorBehaviour;
 import oop.seminars.s02.supermarket.interfaces.iMarketBehaviour;
 import oop.seminars.s02.supermarket.interfaces.iQueueBehaviour;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Market implements iMarketBehaviour,iQueueBehaviour {
 
@@ -17,21 +17,22 @@ public class Market implements iMarketBehaviour,iQueueBehaviour {
 
     @Override
     public void acceptToMarket(iActorBehaviour actor) {
-        System.out.println(actor.getActor().getName()+" клиент пришел в магазин ");
+        Diagnostics.logMessage(this, actor.getActor().getName()+" клиент пришел в магазин ");
         takeInQueue(actor);
     }
 
     @Override
     public void takeInQueue(iActorBehaviour actor) {
         this.queue.add(actor);
-        System.out.println(actor.getActor().getName()+" клиент добавлен в очередь ");
+        Diagnostics.logMessage(this,actor.getActor().getName()+" клиент добавлен в очередь ");
     }
+
 
     @Override
     public void releaseFromMarket(List<Actor> actors) {
         for(Actor actor:actors)
         {
-            System.out.println(actor.getName()+" клиент ушел из магазина ");
+            Diagnostics.logMessage(this,actor.getName()+" клиент ушел из магазина ");
             queue.remove(actor);
         }
 
@@ -51,7 +52,7 @@ public class Market implements iMarketBehaviour,iQueueBehaviour {
             if(actor.isMakeOrder())
             {
                 actor.setTakeOrder(true);
-                System.out.println(actor.getActor().getName()+" клиент получил свой заказ ");
+                Diagnostics.logMessage(this,actor.getActor().getName()+" клиент получил свой заказ ");
             }
         }
 
@@ -65,7 +66,7 @@ public class Market implements iMarketBehaviour,iQueueBehaviour {
             if(actor.isTakeOrder())
             {
                 releaseActors.add(actor.getActor());
-                System.out.println(actor.getActor().getName()+" клиент ушел из очереди ");
+                Diagnostics.logMessage(this,actor.getActor().getName()+" клиент ушел из очереди ");
             }
 
         }
@@ -73,7 +74,9 @@ public class Market implements iMarketBehaviour,iQueueBehaviour {
     }
 
 
-
+    /** Оформление заказа
+     * Снабжает клиентов в очереди заказом
+     */
     @Override
     public void takeOrder() {
         for(iActorBehaviour actor:queue)
@@ -81,7 +84,7 @@ public class Market implements iMarketBehaviour,iQueueBehaviour {
             if(!actor.isMakeOrder())
             {
                 actor.setMakeOrder(true);
-                System.out.println(actor.getActor().getName()+" клиент сделал заказ ");
+                Diagnostics.logMessage(this,actor.getActor().getName()+" клиент сделал заказ ");
 
             }
         }

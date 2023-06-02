@@ -1,19 +1,32 @@
 package oop.seminars.s02;
 
-import oop.seminars.s02.supermarket.classes.Market;
-import oop.seminars.s02.supermarket.classes.OrdinaryClient;
-import oop.seminars.s02.supermarket.classes.PromoClient;
-import oop.seminars.s02.supermarket.classes.SpecialClient;
-import oop.seminars.s02.supermarket.interfaces.*;
+import oop.seminars.s02.supermarket.classes.*;
+import oop.seminars.s02.supermarket.interfaces.iActorBehaviour;
 
-import java.util.Random;
-import java.util.random.RandomGenerator;
+import java.util.ArrayList;
+import java.util.List;
 
 public class App {
     public static void main(String[] args) {
         Market market = new Market();
-        iActorBehaviour client1 = new OrdinaryClient("Sava");
-        iActorBehaviour client2 = new SpecialClient("Josef N.", 12);
-        iActorBehaviour client3 = new PromoClient("Joke John");
+        List<iActorBehaviour> clients = new ArrayList<>();
+        try{
+        clients.add(new OrdinaryClient("Sava"));
+        clients.add(new SpecialClient("Josef N.", 12));
+        clients.add(new PromoClient("Joke John", 12));
+        clients.add(new PromoClient("Joke John", 10));
+        clients.add(new PromoClient("Joke John", 7));
+        }
+        catch(TooManyClientException e) {
+            System.out.println("Warning! Promo clients capacity exceeded...");
+            }
+
+        for (iActorBehaviour client :
+                clients) {
+            market.acceptToMarket(client);
+        }
+        market.acceptToMarket(new TaxService());
+
+        market.update();
     }
 }
