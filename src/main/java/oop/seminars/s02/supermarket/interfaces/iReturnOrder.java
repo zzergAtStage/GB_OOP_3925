@@ -10,8 +10,7 @@ public interface iReturnOrder {
     boolean isGoodsRefundable(iActorBehaviour client);
 
     /**
-     *
-     * Ставим клиента в очередь
+     * Ставим клиента в очередь на возврат товара
      *
      * @param client Клиент
      */
