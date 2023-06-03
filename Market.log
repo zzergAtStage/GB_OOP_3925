@@ -1,0 +1,296 @@
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logError
+WARNING: java.lang.String# oop.seminars.s02.supermarket.classes.PromoClient
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент пришел в магазин 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент добавлен в очередь 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент пришел в магазин 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент добавлен в очередь 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент пришел в магазин 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент добавлен в очередь 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент сделал заказ 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент сделал заказ 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент сделал заказ 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент сделал заказ 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент сделал заказ 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент получил свой заказ 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент получил свой заказ 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент получил свой заказ 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент получил свой заказ 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент ушел из очереди 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из очереди 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из очереди 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент ушел из очереди 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент ушел из магазина 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из магазина 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из магазина 
+Jun 03, 2023 10:42:49 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент ушел из магазина 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logError
+WARNING: oop.seminars.s02.supermarket.classes.PromoClient# Достигнуто максимальное количество клиентов, участвующих в акции: 2
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент пришел в магазин 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент добавлен в очередь 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент пришел в магазин 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент добавлен в очередь 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент пришел в магазин 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент добавлен в очередь 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент сделал заказ 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент сделал заказ 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент сделал заказ 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент сделал заказ 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент сделал заказ 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент получил свой заказ 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент получил свой заказ 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент получил свой заказ 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент получил свой заказ 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент ушел из очереди 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из очереди 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из очереди 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент ушел из очереди 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент ушел из магазина 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из магазина 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из магазина 
+Jun 03, 2023 10:43:55 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент ушел из магазина 
+Jun 03, 2023 11:02:03 PM oop.seminars.s02.supermarket.classes.Diagnostics logError
+WARNING: oop.seminars.s02.supermarket.classes.PromoClient# Достигнуто максимальное количество клиентов, участвующих в акции: 2
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент пришел в магазин 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент добавлен в очередь 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент пришел в магазин 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент добавлен в очередь 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент пришел в магазин 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент добавлен в очередь 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент сделал заказ 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент сделал заказ 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент сделал заказ 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент сделал заказ 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент сделал заказ 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент получил свой заказ 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент получил свой заказ 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент получил свой заказ 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент получил свой заказ 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент ушел из очереди 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из очереди 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из очереди 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент ушел из очереди 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент ушел из магазина 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из магазина 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из магазина 
+Jun 03, 2023 11:02:04 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент ушел из магазина 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logError
+WARNING: oop.seminars.s02.supermarket.classes.PromoClient# Достигнуто максимальное количество клиентов, участвующих в акции: 2
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент пришел в магазин 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент добавлен в очередь 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент пришел в магазин 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент добавлен в очередь 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент пришел в магазин 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент добавлен в очередь 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент сделал заказ 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент сделал заказ 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент сделал заказ 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент сделал заказ 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент сделал заказ 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент получил свой заказ 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент получил свой заказ 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент получил свой заказ 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент получил свой заказ 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент ушел из очереди 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из очереди 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из очереди 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент ушел из очереди 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент ушел из магазина 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из магазина 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из магазина 
+Jun 03, 2023 11:03:02 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент ушел из магазина 
+Jun 03, 2023 11:05:39 PM oop.seminars.s02.supermarket.classes.Diagnostics logError
+WARNING: oop.seminars.s02.supermarket.classes.PromoClient# Достигнуто максимальное количество клиентов, участвующих в акции: 2
+Jun 03, 2023 11:10:59 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент пришел в магазин 
+Jun 03, 2023 11:10:59 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент добавлен в очередь 
+Jun 03, 2023 11:10:59 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент пришел в магазин 
+Jun 03, 2023 11:10:59 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент добавлен в очередь 
+Jun 03, 2023 11:10:59 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 11:10:59 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 11:10:59 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logError
+WARNING: oop.seminars.s02.supermarket.classes.PromoClient# Достигнуто максимальное количество клиентов, участвующих в акции: 2
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент пришел в магазин 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент добавлен в очередь 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент пришел в магазин 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент добавлен в очередь 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент пришел в магазин 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент добавлен в очередь 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент пришел в магазин 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент добавлен в очередь 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент сделал заказ 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# null клиент сделал заказ 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент сделал заказ 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент сделал заказ 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент сделал заказ 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент получил свой заказ 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент получил свой заказ 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент получил свой заказ 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент получил свой заказ 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент ушел из очереди 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из очереди 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из очереди 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент ушел из очереди 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Sava клиент ушел из магазина 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из магазина 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Joke John клиент ушел из магазина 
+Jun 03, 2023 11:11:12 PM oop.seminars.s02.supermarket.classes.Diagnostics logMessage
+INFO: oop.seminars.s02.supermarket.classes.Market# Tax audit клиент ушел из магазина 
