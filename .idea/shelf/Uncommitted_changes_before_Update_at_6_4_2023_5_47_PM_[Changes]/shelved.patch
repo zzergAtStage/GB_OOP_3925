@@ -1,0 +1,18 @@
+Index: src/main/java/oop/seminars/s02/supermarket/classes/Market.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package oop.seminars.s02.supermarket.classes;\r\n\r\nimport java.util.List;\r\nimport java.util.ArrayList;\r\n\r\nimport oop.seminars.s02.supermarket.interfaces.iActorBehaviour;\r\nimport oop.seminars.s02.supermarket.interfaces.iMarketBehaviour;\r\nimport oop.seminars.s02.supermarket.interfaces.iQueueBehaviour;\r\n\r\npublic class Market implements iMarketBehaviour,iQueueBehaviour {\r\n\r\n    private List<iActorBehaviour> queue;\r\n\r\n    public Market() {\r\n        this.queue = new ArrayList<iActorBehaviour>();\r\n    }\r\n\r\n    @Override\r\n    public void acceptToMarket(iActorBehaviour actor) {\r\n        System.out.println(actor.getActor().getName()+\" клиент пришел в магазин \");\r\n        takeInQueue(actor);\r\n    }\r\n\r\n    @Override\r\n    public void takeInQueue(iActorBehaviour actor) {\r\n        this.queue.add(actor);\r\n        System.out.println(actor.getActor().getName()+\" клиент добавлен в очередь \");\r\n    }\r\n\r\n    @Override\r\n    public void releaseFromMarket(List<Actor> actors) {\r\n        for(Actor actor:actors)\r\n        {\r\n            System.out.println(actor.getName()+\" клиент ушел из магазина \");\r\n            queue.remove(actor);\r\n        }\r\n\r\n    }\r\n\r\n    @Override\r\n    public void update() {\r\n        takeOrder();\r\n        giveOrder();\r\n        releaseFromQueue();\r\n    }\r\n\r\n    @Override\r\n    public void giveOrder() {\r\n        for(iActorBehaviour actor: queue)\r\n        {\r\n            if(actor.isMakeOrder())\r\n            {\r\n                actor.setTakeOrder(true);\r\n                System.out.println(actor.getActor().getName()+\" клиент получил свой заказ \");\r\n            }\r\n        }\r\n\r\n    }\r\n\r\n    @Override\r\n    public void releaseFromQueue() {\r\n        List<Actor> releaseActors = new ArrayList<>();\r\n        for(iActorBehaviour actor:queue)\r\n        {\r\n            if(actor.isTakeOrder())\r\n            {\r\n                releaseActors.add(actor.getActor());\r\n                System.out.println(actor.getActor().getName()+\" клиент ушел из очереди \");\r\n            }\r\n\r\n        }\r\n        releaseFromMarket(releaseActors);\r\n    }\r\n\r\n\r\n\r\n    @Override\r\n    public void takeOrder() {\r\n        for(iActorBehaviour actor:queue)\r\n        {\r\n            if(!actor.isMakeOrder())\r\n            {\r\n                actor.setMakeOrder(true);\r\n                System.out.println(actor.getActor().getName()+\" клиент сделал заказ \");\r\n\r\n            }\r\n        }\r\n\r\n    }\r\n\r\n\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/oop/seminars/s02/supermarket/classes/Market.java b/src/main/java/oop/seminars/s02/supermarket/classes/Market.java
+--- a/src/main/java/oop/seminars/s02/supermarket/classes/Market.java	(revision 501b3dfd9b23c9f2d0543450d9a701d4e8cea68a)
++++ b/src/main/java/oop/seminars/s02/supermarket/classes/Market.java	(date 1685637257390)
+@@ -15,6 +15,7 @@
+         this.queue = new ArrayList<iActorBehaviour>();
+     }
+ 
++
+     @Override
+     public void acceptToMarket(iActorBehaviour actor) {
+         System.out.println(actor.getActor().getName()+" клиент пришел в магазин ");
