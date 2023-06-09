@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba35ccc-8ab1-47ee-8119-e28c4dcc3627" name="Changes" comment="S05 mvc app + interfaces">
+    <list default="true" id="fba35ccc-8ab1-47ee-8119-e28c4dcc3627" name="Changes" comment="S03 homework and tasks with asterisk">
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/StudentDomen/PersonComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/services/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/services/iPersonService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/StudentDomen/StudentGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/StudentDomen/StudentGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/StudentDomen/StudentStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/StudentDomen/StudentStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -175,7 +175,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686249940254</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="S03 homework and tasks with asterisk">
+      <created>1686309663300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686309663300</updated>
+    </task>
+    <task id="LOCAL-00007" summary="S03 homework and tasks with asterisk">
+      <created>1686309712174</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686309712174</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,7 +203,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/s02_full_class" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -207,6 +221,7 @@
     <MESSAGE value="local commits" />
     <MESSAGE value="S05 mvc app" />
     <MESSAGE value="S05 mvc app + interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="S05 mvc app + interfaces" />
+    <MESSAGE value="S03 homework and tasks with asterisk" />
+    <option name="LAST_COMMIT_MESSAGE" value="S03 homework and tasks with asterisk" />
   </component>
 </project>
