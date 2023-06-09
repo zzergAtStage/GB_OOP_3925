@@ -1,5 +1,6 @@
 package oop.seminars.s03.StudentDomen;
 
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -79,5 +80,22 @@ public class StudentStream implements Iterable<StudentGroup>, Comparator<Student
     }
     public void addGroupToStream(StudentGroup group){
         this.stream.add(group);
+    }
+
+    public static void sortStudentStream(StudentStream studentStream) {
+        LinkedList<StudentGroup> stream = studentStream.stream;
+
+        Collections.sort(stream, new Comparator<StudentGroup>() {
+            @Override
+            public int compare(StudentGroup group1, StudentGroup group2) {
+                // Compare by length (size) of StudentGroup
+                int sizeComparison = Integer.compare(group1.group.size(), group2.group.size());
+                if (sizeComparison != 0) {
+                    return sizeComparison;
+                }
+                // If the length is the same, compare by idGroup
+                return Integer.compare(group1.getIdGroup(), group2.getIdGroup());
+            }
+        });
     }
 }

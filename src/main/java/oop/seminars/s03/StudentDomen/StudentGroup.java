@@ -18,7 +18,9 @@ public class StudentGroup implements Iterable<Student> {
      */
     public StringBuilder getGroupList(){
         StringBuilder sb = new StringBuilder();
-        sb.append("Group: ").append(this.idGroup).append("\n");
+        sb.append("Group: ").append(this.idGroup).append(" size = ")
+                .append(this.getGroup().size())
+                .append("\n");
         for (Student stud : this
                 ) {
             sb.append(stud.toString()).append("\n");

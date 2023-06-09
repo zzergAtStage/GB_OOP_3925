@@ -9,6 +9,8 @@ import oop.seminars.s03.StudentDomen.Student;
 import oop.seminars.s03.StudentDomen.StudentGroup;
 import oop.seminars.s03.StudentDomen.StudentStream;
 
+import static oop.seminars.s03.StudentDomen.StudentStream.sortStudentStream;
+
 public class App {
     protected static final int STEAM_DEFAULT_NUMBER = 2;
     public static void main(String[] args) throws Exception {
@@ -49,18 +51,33 @@ public class App {
         {
             System.out.println(stud.toString());
         }
-
-        StudentGroup group3925 = new StudentGroup(listStud, 3925);
+        //adding some students to get difference
+        List<Student> listStud2 = new ArrayList<>(listStud);
+        listStud2.add(new Student("Josh", "Smith", 19, 109));
+        listStud2.add(new Student("Lasy", "Morgan", 20, 122));
+        StudentGroup group3925 = new StudentGroup(listStud2, 3925);
 
         StudentStream stream02 = new StudentStream();
+
         stream02.addGroupToStream(group4335);
         stream02.addGroupToStream(group3925);
+        //and one more group withe the same amount, to test a number sort
+        stream02.addGroupToStream(new StudentGroup(listStud, 1212));
         stream02.setStreamNumber(STEAM_DEFAULT_NUMBER);
-
+        //show the stream and groups in it
         System.out.println("------------------------");
         System.out.printf("Stream #%d :\n",stream02.getStreamNumber());
         for (StudentGroup group: stream02) {
             System.out.println(group.getGroupList().toString());
         }
+        //sorting for task *1
+        sortStudentStream(stream02);
+        System.out.println("+++++++++++++++++++++++++++++++");
+        System.out.printf("Stream sorted #%d :\n",stream02.getStreamNumber());
+        for (StudentGroup group: stream02) {
+            System.out.println(group.getGroupList().toString());
+        }
+
+
     }
 }
