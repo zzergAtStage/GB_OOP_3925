@@ -1,46 +1,67 @@
 @startuml
 
-class User {
+
+
+interface iUserService<T extends User> {
+    + create(): List<T>
+    + getAll(): List<T>
+    + initData(list: List<T>)
+
+}
+
+abstract class User {
     - firstName: String
     - surName: String
     - age: int
-}
-
-class Student {
-    // Inherits fields from User
-    -id: int
-}
-class Teacher {
-    //Inherits fields from User
-    -acadGrade: String
-}
-class Employee {
-    //Inherits fields from User
-    - salary: int
+    +getFirstName(): String
+    +getUserIterator(): Iterator<User>
 }
 class UserComparator<T extends User> {
     + compareTo(obj: T): int
 }
 
-interface UserService<T extends User> {
-    + create(): List<T>
-    + getAll(): List<T>
-    + initData(list: List<T>)
+
+class Student<T extends User> {
+    // Inherits fields from User
+    -id: int
 }
 
+class Employee<T extends User>{
+    //Inherits fields from User
+    - salary: int
+    + paySalary(): void
+}
+class App {
+
+}
 class StudentService<Student> {
     // Implements UserService<Student>
+    - students: List<T>
+    + create: List<T>
+}
+class EmployeeService<Employee> {
+    // Implements UserService<Employee>
+    - employee: List<T>
+    + create: List<T>
+}
+class AverageAge<T extends User> {
+    - sum: double
+    - count: int
+    +countUsers(List<T> users): void
+    +getAverageAge(): double
 }
 
-interface StudentController<Student>{
-    // Implements StudentService
-}
-
+StudentService <|--> Student
+EmployeeService <|--> Employee
 User <|-- Student
-User <|-- Teacher
 User <|-- Employee
+App ..|> StudentService
+App ..|> EmployeeService
+App ..|> UserComparator
+App ..|> AverageAge
 UserComparator ..|> Comparable
-UserService <|.. StudentService
-StudentService <|.. StudentController
+iUserService <|.. StudentService
+iUserService <|.. EmployeeService
+
 @enduml
 
