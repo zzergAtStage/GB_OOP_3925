@@ -1,0 +1,46 @@
+@startuml
+
+class User {
+    - firstName: String
+    - surName: String
+    - age: int
+}
+
+class Student {
+    // Inherits fields from User
+    -id: int
+}
+class Teacher {
+    //Inherits fields from User
+    -acadGrade: String
+}
+class Employee {
+    //Inherits fields from User
+    - salary: int
+}
+class UserComparator<T extends User> {
+    + compareTo(obj: T): int
+}
+
+interface UserService<T extends User> {
+    + create(): List<T>
+    + getAll(): List<T>
+    + initData(list: List<T>)
+}
+
+class StudentService<Student> {
+    // Implements UserService<Student>
+}
+
+interface StudentController<Student>{
+    // Implements StudentService
+}
+
+User <|-- Student
+User <|-- Teacher
+User <|-- Employee
+UserComparator ..|> Comparable
+UserService <|.. StudentService
+StudentService <|.. StudentController
+@enduml
+

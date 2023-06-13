@@ -1,0 +1,56 @@
+@startuml
+
+actor "App" as app
+participant "Market" as market
+participant "OrdinaryClient" as client1
+participant "OrdinaryClient" as client2
+participant "SpecialClient" as client3
+participant "TaxService" as taxService
+
+app -> market: acceptToMarket(client1)
+app -> market: acceptToMarket(client2)
+app -> market: acceptToMarket(client3)
+app -> market: acceptToMarket(taxService)
+
+activate market
+market -> client1: acceptToMarket()
+market -> client2: acceptToMarket()
+market -> client3: acceptToMarket()
+market -> taxService: acceptToMarket()
+
+activate client1
+activate client2
+activate client3
+activate taxService
+
+market -> client1: takeInQueue()
+market -> client2: takeInQueue()
+market -> client3: takeInQueue()
+
+market -> client1: takeOrder()
+market -> client2: takeOrder()
+market -> client3: takeOrder()
+
+market -> client1: giveOrder()
+market -> client2: giveOrder()
+market -> client3: giveOrder()
+
+client1 -> market: setTakeOrder(true)
+client2 -> market: setTakeOrder(true)
+client3 -> market: setTakeOrder(true)
+
+market -> client1: releaseFromQueue()
+market -> client2: releaseFromQueue()
+market -> client3: releaseFromQueue()
+
+market -> client1: releaseFromMarket()
+market -> client2: releaseFromMarket()
+market -> client3: releaseFromMarket()
+
+deactivate client1
+deactivate client2
+deactivate client3
+deactivate taxService
+deactivate market
+
+@enduml

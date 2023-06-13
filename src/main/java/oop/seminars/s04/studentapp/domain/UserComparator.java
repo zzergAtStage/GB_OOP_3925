@@ -1,10 +1,13 @@
-package oop.seminars.s03.StudentDomen;
+package oop.seminars.s04.studentapp.domain;
+
+
 
 import java.util.Comparator;
 
-public class PersonComparator<T extends Person> implements Comparator<T> {
+
+public class UserComparator<T extends User> implements Comparator<T> {
     /**
-     * Compares two person by first name, and then by second name
+     * Compares two Users by first name, and then by second name
      * @param o1 the first object to be compared.
      * @param o2 the second object to be compared.
      * @return resul of comparing the objects
