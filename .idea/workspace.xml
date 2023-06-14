@@ -4,11 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba35ccc-8ab1-47ee-8119-e28c4dcc3627" name="Changes" comment="S03 homework and tasks with asterisk">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/StudentDomen/PersonComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/services/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/seminars/s03/services/iPersonService.java" afterDir="false" />
+    <list default="true" id="fba35ccc-8ab1-47ee-8119-e28c4dcc3627" name="Changes" comment="S04 homework with asterisk + PlantUML diagram + README.MD">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_4_2023_5_47_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_4_2023_5_47_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/lessons/l04/examples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/lessons/l04/examples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s01/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s01/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s01/VendingMachineGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s01/VendingMachineGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s01/VendingMachineGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s01/VendingMachineGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s01/domain/Bottle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s01/domain/Bottle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s01/domain/HotDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s01/domain/HotDrink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s01/domain/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s01/domain/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s01/machines/MainFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s01/machines/MainFrame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s01/machines/MainFrame$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s01/machines/MainFrame$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s01/machines/MainFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s01/machines/MainFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s01/machines/VendingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s01/machines/VendingMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s02/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s02/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s02/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s02/Storage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/Actor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/Diagnostics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/Diagnostics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/Market.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/Market.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/OrdinaryClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/OrdinaryClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/PromoClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/PromoClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/SpecialClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/SpecialClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/TaxService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/TaxService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/TooManyClientException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s02/supermarket/classes/TooManyClientException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/Emploee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/Emploee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/SGIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/SGIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/StudentGroup$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/StudentGroup$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/StudentGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/StudentGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/StudentStream$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/StudentStream$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/StudentStream$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/StudentStream$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/StudentStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/StudentStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/StudentDomen/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/services/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/services/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s03/services/iPersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s03/services/iPersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/controllers/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/controllers/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/controllers/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/controllers/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/AverageAge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/AverageAge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/UserComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/UserComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/UserIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/domain/UserIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/interfaces/iUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s04/studentapp/interfaces/iUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/veiw/Veiw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/oop/seminars/s05/mvcstudentapp/veiw/Veiw.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +79,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="UML Sequence" />
         <option value="Class" />
       </list>
     </option>
@@ -26,16 +87,16 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="s02_full_class" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -62,10 +123,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Father/Documents/Education/GB/02_semestr/OOP/oop.seminars/src/main/java/oop/seminars/s05/mvcstudentapp/model&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Father/Documents/Education/GB/02_semestr/OOP/oop.seminars/src/main/java/oop/seminars/s04/studentapp/diagram-17709660308966937702.png&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -78,12 +141,16 @@
       <recent name="C:\Users\Father\Documents\Education\GB\02_semestr\OOP\oop.seminars\src\main\java\oop\seminars\s05" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Father\Documents\Education\GB\02_semestr\OOP\oop.seminars\src\main\java\oop\seminars" />
       <recent name="C:\Users\Father\Documents\Education\GB\02_semestr\OOP\oop.seminars\src\main\java\oop\seminars\s01\machines" />
       <recent name="C:\Users\Father\Documents\Education\GB\02_semestr\OOP\oop.seminars\src\main\java\oop\seminars\s01" />
       <recent name="C:\Users\Father\Documents\Education\GB\02_semestr\OOP\oop.seminars\src\main\java\oop\seminars\s01\domain" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="oop.seminars.s04.studentapp.domain" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.oop.seminars.s04.studentapp.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.seminars.s03.App" />
       <module name="oop.seminars" />
@@ -110,6 +177,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="oop.seminars.s04.studentapp.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.seminars.s04.studentapp.App" />
+      <module name="oop.seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.seminars.s04.studentapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="oop.seminars.s05.mvcstudentapp.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.seminars.s05.mvcstudentapp.App" />
       <module name="oop.seminars" />
@@ -125,6 +205,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.oop.seminars.s04.studentapp.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.oop.seminars.s05.mvcstudentapp.App" />
         <item itemvalue="Application.VendingMachineGUI" />
@@ -189,7 +270,42 @@
       <option name="project" value="LOCAL" />
       <updated>1686309712174</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="S04 homework with asterisk">
+      <created>1686694429042</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686694429042</updated>
+    </task>
+    <task id="LOCAL-00009" summary="S04 homework with asterisk">
+      <created>1686694454939</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686694454939</updated>
+    </task>
+    <task id="LOCAL-00010" summary="S04 homework with asterisk + PlantUML diagram">
+      <created>1686695991497</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686695991497</updated>
+    </task>
+    <task id="LOCAL-00011" summary="S04 homework with asterisk + PlantUML diagram + README.MD">
+      <created>1686696385595</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686696385595</updated>
+    </task>
+    <task id="LOCAL-00012" summary="S04 homework with asterisk + PlantUML diagram + README.MD">
+      <created>1686696487968</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686696487968</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +319,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="S04_refactoring_intoT" />
                       </list>
                     </value>
                   </entry>
@@ -222,6 +338,9 @@
     <MESSAGE value="S05 mvc app" />
     <MESSAGE value="S05 mvc app + interfaces" />
     <MESSAGE value="S03 homework and tasks with asterisk" />
-    <option name="LAST_COMMIT_MESSAGE" value="S03 homework and tasks with asterisk" />
+    <MESSAGE value="S04 homework with asterisk" />
+    <MESSAGE value="S04 homework with asterisk + PlantUML diagram" />
+    <MESSAGE value="S04 homework with asterisk + PlantUML diagram + README.MD" />
+    <option name="LAST_COMMIT_MESSAGE" value="S04 homework with asterisk + PlantUML diagram + README.MD" />
   </component>
 </project>
