@@ -1,8 +1,9 @@
 package oop.seminars.s05.mvcstudentapp.controller;
 
+import oop.seminars.s05.mvcstudentapp.model.MenuModel;
 import oop.seminars.s05.mvcstudentapp.model.Student;
-import oop.seminars.s05.mvcstudentapp.view.ViewEng;
-import oop.seminars.s05.mvcstudentapp.view.ViewRu;
+import oop.seminars.s05.mvcstudentapp.view.RIP_ViewEng;
+import oop.seminars.s05.mvcstudentapp.view.RIP_ViewRu;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,6 +27,9 @@ public class Controller {
         students = model.getAllStudents();
     }
 
+    /**
+     * Выполняет инициализацию приложения и данных моделей
+     */
     public void update() {
         //MVP
         getAllStudents();
@@ -37,16 +41,21 @@ public class Controller {
         //view.printAllStudents(model.getAllStudents()); -- goes MVC
     }
 
+    /**
+     * Основной исполняющий модуль приложения
+     */
     public void run() {
 
         Commands command = Commands.NONE;
         boolean getNewIteration = true;
-        //TODO ShowMenu
-        String choice = view.prompt("Choice your language: \n 1 - English \n 2 - Russian");
-        view = (choice.equals("1")) ? new ViewEng(): new ViewRu();
+        String choice = view.prompt("Choice your language: \n 1 - English \n 2 - Russian \n #>");
+
+        view = (choice.equals("1")) ? new RIP_ViewEng(): new RIP_ViewRu();
+        MenuModel menu = new MenuModel();
+        menu.showMenu(menu.getMenuByLanguageIdentifier(Integer.parseInt(choice)));
         while (getNewIteration) {
 
-            choice = view.prompt("Next step:\n");
+            choice = view.prompt("\nNext step:");
             command = Commands.valueOf(choice.toUpperCase());
             switch (command) {
                 case EXIT:

@@ -1,6 +1,7 @@
 package oop.seminars.s05.mvcstudentapp;
 
 import oop.seminars.s05.mvcstudentapp.controller.Controller;
+import oop.seminars.s05.mvcstudentapp.controller.iGetView;
 import oop.seminars.s05.mvcstudentapp.model.Model;
 import oop.seminars.s05.mvcstudentapp.model.Student;
 import oop.seminars.s05.mvcstudentapp.view.View;
@@ -27,10 +28,11 @@ public class App {
         listStud.add(s6);
         listStud.add(pers1);
         Model model = new Model(listStud);
-        View view = new View();
+        iGetView view = new View() {
+        };
 
         Controller controller = new Controller(view,model);
         controller.update();
-
+        controller.run();
     }
 }

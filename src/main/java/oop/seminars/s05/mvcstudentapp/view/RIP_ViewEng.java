@@ -5,7 +5,7 @@ import oop.seminars.s05.mvcstudentapp.model.Student;
 
 import java.util.List;
 
-public class ViewEng extends View implements iGetView {
+public class RIP_ViewEng extends View implements iGetView {
     public void printAllStudents(List<Student> group){
         System.out.println("--------List of students: -------- ");
         super.printAllStudents(group);
