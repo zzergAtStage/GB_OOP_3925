@@ -4,6 +4,7 @@ import oop.seminars.s05.mvcstudentapp.model.Student;
 
 import java.util.List;
 
-public interface iGetVeiw {
+public interface iGetView {
     void printAllStudents(List<Student> students);
+    String prompt(String message);
 }

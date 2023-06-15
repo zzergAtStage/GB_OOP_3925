@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface iGetModel {
     public List<Student> getAllStudents();
-
+    public List<Student> deleteStudentByNumber(List<Student> students, int number);
 }

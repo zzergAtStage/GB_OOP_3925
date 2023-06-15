@@ -3,7 +3,7 @@ package oop.seminars.s05.mvcstudentapp;
 import oop.seminars.s05.mvcstudentapp.controller.Controller;
 import oop.seminars.s05.mvcstudentapp.model.Model;
 import oop.seminars.s05.mvcstudentapp.model.Student;
-import oop.seminars.s05.mvcstudentapp.veiw.Veiw;
+import oop.seminars.s05.mvcstudentapp.view.View;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,9 +27,9 @@ public class App {
         listStud.add(s6);
         listStud.add(pers1);
         Model model = new Model(listStud);
-        Veiw veiw = new Veiw();
+        View view = new View();
 
-        Controller controller = new Controller(veiw,model);
+        Controller controller = new Controller(view,model);
         controller.update();
 
     }
