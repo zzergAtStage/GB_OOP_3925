@@ -14,6 +14,8 @@
 <summary>S06 Homework </summary>
 <p> <a href="https://github.com/zzergAtStage/GB_OOP_3925/edit/S06_refactoring_SOLID" title="S06">
 https://github.com/zzergAtStage/GB_OOP_3925/tree/S06_refactoring_SOLID/src/main/java/oop/seminars/s06/solid
+
+
 Базовое задние:
 1) Переписать код в соответствии с Single Responsibility Principle:  
 2) Переписать код SpeedCalculation в соответствии с Open-Closed Principle:  
