@@ -1,6 +1,6 @@
 package oop.seminars.s06.solid.task03;
 
-public class Circle implements Shape {
+public class Circle implements Shape2D {
     private double radius;
 
     public Circle(double radius) {
@@ -12,8 +12,4 @@ public class Circle implements Shape {
         return 2 * 3.14 * radius;
     }
 
-    @Override
-    public double volume() {
-        throw new UnsupportedOperationException();
-    }
 }

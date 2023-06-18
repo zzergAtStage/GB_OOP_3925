@@ -1,9 +1,9 @@
 package oop.seminars.s06.solid.task05;
 
 //5) Переписать код в соответствии с Dependency Inversion Principle:
-public class Car {
-    private PetrolEngine engine;
-    public Car(PetrolEngine engine) {
+public class Car implements Engine{
+    public Engine engine;
+    public Car(Engine engine) {
         this.engine = engine;
     }
     public void start() {

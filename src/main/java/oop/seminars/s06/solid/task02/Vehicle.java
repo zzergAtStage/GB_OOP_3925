@@ -1,19 +1,19 @@
 package oop.seminars.s06.solid.task02;
 
-public class Vehicle {
-    int maxSpeed;
-    String type;
+public abstract class Vehicle{
+    protected int maxSpeed;
 
-    public Vehicle(int maxSpeed, String type) {
+    public Vehicle(int maxSpeed) {
         this.maxSpeed = maxSpeed;
-        this.type = type;
     }
 
     public int getMaxSpeed() {
-        return this.maxSpeed;
+        return maxSpeed;
     }
 
-    public String getType() {
-        return this.type;
-    }
+    /**
+     * Declares a method, to calculate allowed speed
+     * @return result of calculation
+     */
+    public abstract double calculateAllowedSpeed();
 }
