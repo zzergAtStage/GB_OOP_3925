@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 import oop.seminars.s071.complex1calculator.model.Calculator;
 import oop.seminars.s071.complex1calculator.model.CalculatorInterface;
 import oop.seminars.s071.complex1calculator.model.ComplexNumber;
+import oop.seminars.s071.complex1calculator.model.FileLogger;
 
 
 public class CalculatorGUI extends Application {
@@ -27,8 +28,9 @@ public class CalculatorGUI extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+        FileLogger logger = new FileLogger();
         primaryStage.setTitle("Complex Numbers Calculator");
-
+        logger.logEvent(" Complex Numbers Calculator starts...");
         // Create UI elements
         Label num1Label = new Label("Number 1:");
         Label num2Label = new Label("Number 2:");
@@ -49,6 +51,7 @@ public class CalculatorGUI extends Application {
             ComplexNumber num1 = createComplexNumber(num1RealField.getText(), num1ImaginaryField.getText());
             ComplexNumber num2 = createComplexNumber(num2RealField.getText(), num2ImaginaryField.getText());
             ComplexNumber result = calculator.add(num1, num2);
+            logger.logEvent("Calculated add: " + result);
             displayResult(result, resultRealField, resultImaginaryField);
         });
 
@@ -56,6 +59,7 @@ public class CalculatorGUI extends Application {
             ComplexNumber num1 = createComplexNumber(num1RealField.getText(), num1ImaginaryField.getText());
             ComplexNumber num2 = createComplexNumber(num2RealField.getText(), num2ImaginaryField.getText());
             ComplexNumber result = calculator.subtract(num1, num2);
+            logger.logEvent("Calculated substraction: " + result);
             displayResult(result, resultRealField, resultImaginaryField);
         });
 
@@ -63,6 +67,7 @@ public class CalculatorGUI extends Application {
             ComplexNumber num1 = createComplexNumber(num1RealField.getText(), num1ImaginaryField.getText());
             ComplexNumber num2 = createComplexNumber(num2RealField.getText(), num2ImaginaryField.getText());
             ComplexNumber result = calculator.multiply(num1, num2);
+            logger.logEvent("Calculated multiplication: " + result);
             displayResult(result, resultRealField, resultImaginaryField);
         });
 

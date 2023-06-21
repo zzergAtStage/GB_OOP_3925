@@ -2,6 +2,7 @@ package oop.seminars.s071.complex1calculator.model;
 
 public class Calculator implements CalculatorInterface {
     private CalculatorModel model;
+    private FileLogger logger;
 
     public Calculator() {
         this.model = new CalculatorModel();
